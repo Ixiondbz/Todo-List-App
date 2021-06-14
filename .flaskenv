@@ -1,0 +1,3 @@
+FLASK_APP=task_master.py
+FLASK_ENV=development
+FLASK_DEBUG=True

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>Title</title>
+    {% endif %}
+</head>
+<body>
+    <nav>
+        <div>
+            <span><p><b>Task Master</b></p></span>
+        </div>
+    </nav>
+    <hr>
+    {% block content %}
+    
+    {% endblock %}
+</body>
+</html>
